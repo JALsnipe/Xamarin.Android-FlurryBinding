@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlurryBinding", "FlurryBinding\FlurryBinding.csproj", "{3EE967D0-7C51-4C0B-880B-DAECBB978502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlurryInterfaceDefs", "FlurryInterfaceDefs\FlurryInterfaceDefs.csproj", "{75ACABF7-AB6B-408A-913F-7326D433A245}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EE967D0-7C51-4C0B-880B-DAECBB978502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE967D0-7C51-4C0B-880B-DAECBB978502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE967D0-7C51-4C0B-880B-DAECBB978502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE967D0-7C51-4C0B-880B-DAECBB978502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75ACABF7-AB6B-408A-913F-7326D433A245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75ACABF7-AB6B-408A-913F-7326D433A245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75ACABF7-AB6B-408A-913F-7326D433A245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75ACABF7-AB6B-408A-913F-7326D433A245}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = FlurryBinding\FlurryBinding.csproj
+	EndGlobalSection
+EndGlobal

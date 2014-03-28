@@ -1,0 +1,43 @@
+﻿<metadata>
+	<!--  	warning BG8401: Skipping Com.Flurry.Sdk.Cf.D, due to a duplicate field, method or nested type name-->
+	<!--	warning BG8401: Skipping Com.Flurry.Sdk.Cf.F, due to a duplicate field, method or nested type name-->
+	<!--	warning BG8401: Skipping Com.Flurry.Sdk.Cf.G, due to a duplicate field, method or nested type name-->
+	<remove-node path="/api/package[@name='com.flurry.sdk']/class[@name='cf']" />
+ 
+	<!--	warning BG8401: Skipping Com.Flurry.Sdk.Eh.A, due to a duplicate field, method or nested type name-->
+	<remove-node path="/api/package[@name='com.flurry.sdk']/class[@name='eh']" />
+	
+	<!-- Warning BG8C00: For type Com.Flurry.Sdk.Bx, base interface com.flurry.sdk.cl.a does not exist. -->
+	<!-- Warning BG8C00: For type Com.Flurry.Sdk.Bx, base interface com.flurry.sdk.ei.a does not exist. -->
+	<remove-node path="/api/package[@name='com.flurry.sdk']/class[@name='bx']" />
+	
+	<!-- Warning BG8C00: For type Com.Flurry.Sdk.Cl, base interface com.flurry.sdk.cn.b does not exist.-->
+	<remove-node path="/api/package[@name='com.flurry.sdk']/class[@name='cl']" />
+	
+	<!-- Warning BG8801: Invalid parameter type java.util.Map<java.lang.String, com.flurry.sdk.bx.a> in method A in managed type Com.Flurry.Sdk.Ck -->
+	<!-- Warning BG8701: Invalid return type java.util.Map<java.lang.String, com.flurry.sdk.bx.a> in method M in managed type Com.Flurry.Sdk.Ck -->
+	<remove-node path="/api/package[@name='com.flurry.sdk']/class[@name='ck']" />
+	
+	<!-- Warning BG8102: Class Com.Flurry.Sdk.Cd has unknown base type com.flurry.sdk.cf -->
+	<remove-node path="/api/package[@name='com.flurry.sdk']/class[@name='cd']" />
+	
+	<!-- Warning BG8800: Unknown parameter type com.flurry.sdk.ei.a in method A in managed type Com.Flurry.Sdk.Ei -->
+	<!-- Warning BG8800: Unknown parameter type com.flurry.sdk.ei.a in method B in managed type Com.Flurry.Sdk.Ei -->
+	<remove-node path="/api/package[@name='com.flurry.sdk']/class[@name='ei']" />
+	
+	<!-- Warning BG8C00: For type Com.Flurry.Sdk.En, base interface com.flurry.sdk.ei.a does not exist. -->
+	<remove-node path="/api/package[@name='com.flurry.sdk']/class[@name='en']" />
+	
+	<!-- Warning BG8700: Unknown return type com.flurry.sdk.fe.a in method E in managed type Com.Flurry.Sdk.Fe -->
+	<remove-node path="/api/package[@name='com.flurry.sdk']/class[@name='fe']" />
+	
+	<!-- Warning BG8800: Unknown parameter type com.flurry.sdk.ck in method cj in managed type Com.Flurry.Sdk.Cj -->
+	<remove-node path="/api/package[@name='com.flurry.sdk']/class[@name='cj']" />
+	
+	<!-- Warning BG8801: Invalid parameter type java.util.List<com.flurry.sdk.cj> in method cc in managed type Com.Flurry.Sdk.Cc -->
+	<remove-node path="/api/package[@name='com.flurry.sdk']/class[@name='cc']" />
+	
+	<!-- Warning BG8801: Invalid parameter type java.util.List<com.flurry.sdk.cj> in method A in managed type Com.Flurry.Sdk.Cm -->
+	<!-- Warning BG8701: Invalid return type java.util.List<com.flurry.sdk.cj> in method B in managed type Com.Flurry.Sdk.Cm -->
+	<remove-node path="/api/package[@name='com.flurry.sdk']/class[@name='cm']" />
+</metadata>

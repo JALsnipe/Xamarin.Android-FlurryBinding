@@ -1,0 +1,6 @@
+Name: FlurryInterfaceDefs
+Description: FlurryInterfaceDefs
+Version: 0.1
+
+Requires: 
+Libs: -r:/usr/local/lib/flurrybinding/FlurryInterfaceDefs.dll
